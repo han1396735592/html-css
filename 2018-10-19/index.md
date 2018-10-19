@@ -6,7 +6,7 @@
 
 [电影](myweb/video.html)
 
-[电影](myweb/video2.html)
+[电影2](myweb/video2.html)
 
 ### `marquee`
 
