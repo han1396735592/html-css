@@ -2,7 +2,7 @@
 ### 1  定义
 ```css
 @font-face{
-	font-famaly:"font-name";
+	font-family:"font-name";
 	src:url(path);
 }
 ```
