@@ -1,0 +1,38 @@
+p{
+	text-align: left;
+	border: 0;
+	margin: 0;
+}
+
+.p1-f1{
+	color:#333333; 
+	font-size: 30px;
+}
+.p1-f2{
+	color: #4c9372;
+	font-size: 30px;
+}
+.p2-f1 {
+	font-size: 16px;
+}
+.p2-f2 {
+	font-size: 36px;
+}
+.p3-f1 {
+	font-size: 50px;
+}
+.p3-f2{
+	font-size: 40px;
+	color: #F09;
+}
+.p4-f1{
+	font-size:30px;
+}
+.p4-f2{
+	font-size:30px;
+	color:#C36
+}.p5 {
+	white-space: nowrap;
+	width: 500px;
+	overflow:hidden;
+}
