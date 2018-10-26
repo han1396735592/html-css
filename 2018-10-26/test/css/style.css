@@ -1,0 +1,65 @@
+p{
+	text-align: left;
+	border: 0;
+	margin: 0;
+
+}
+
+@font-face{
+	font-family: "ROCK";
+	src:url(../font/ROCK.TTF)
+
+}
+
+@font-face{
+	font-family: "BOOMBOX";
+	src:url(../font/BOOMBOX.TTF)
+
+}
+@font-face{
+	font-family: "ONYX";
+	src:url(../font/ONYX.TTF)
+
+}
+
+.p1-f1{
+	color:#333333; 
+	font-size: 30px;
+	font-family: "ONYX";
+
+}
+.p1-f2{
+	color: #4c9372;
+	font-size: 30px;
+}
+.p2-f1 {
+	font-size: 16px;
+	font-family: "ROCK";
+}
+.p2-f2 {
+	font-size: 36px;
+	font-family: "ROCK";
+}
+.p3-f1 {
+	font-size: 50px;
+	font-weight:bold;
+	font-family:BOOMBOX;
+}
+.p3-f2{
+	font-size: 40px;
+	color: #e1005a;
+}
+.p4-f1{
+	font-size:30px;
+}
+.p4-f2{
+	font-size:30px;
+	color:#e1005a;
+}.p5 {
+	white-space: nowrap;
+	width: 420px;
+	font-size: 12px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	color: :#74749f;
+}
