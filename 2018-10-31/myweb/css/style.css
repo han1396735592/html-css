@@ -1,0 +1,126 @@
+
+li {
+	list-style: none;
+}
+
+header{
+	width:720px;
+	margin: 0 auto;
+}
+
+header ul{
+	margin:0 auto;
+	width:98%;
+	padding: 0;
+}
+
+header li{
+	display: inline-block;
+	color:#5e2d00;
+	margin-left: 1%;
+	width:23%;
+	font-size:18px;
+	line-height:20px;
+}
+
+a:link {
+	text-decoration: none;
+	color:#5e2d00;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	color: #ff0033;
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+
+article{
+	width: 720px;
+	margin: 0 auto;
+}
+
+article section{
+	margin: 0 auto;
+}
+
+#Photoshop{
+	display: none;
+}
+#Photoshop li{
+	list-style: url("../images/11.png") outside circle; ;
+	margin-left: 28px;
+	font-size: 20px;
+	line-height: 40px;
+}
+#Photoshop li:nth-of-type(even){
+	color: #bda793;
+}
+
+#Photoshop ul{
+	padding: 0;
+}
+#Photoshop:target{
+	display: block;
+}
+#Illustrator {
+	display: none;
+}
+#Illustrator li{
+	list-style: url("../images/11.png") outside circle; ;
+	margin-left: 28px;
+	font-size: 19px;
+	line-height: 40px;
+}
+#Illustrator  ul{
+	padding: 0;
+}
+
+#Illustrator:target{
+	display: block;
+}
+
+#Dreamweaver{
+	display: none;
+}
+#Dreamweaver li{
+	list-style: url("../images/11.png") outside circle; ;
+	margin-left: 28px;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+#Dreamweaver ul{
+	padding: 0;
+}
+
+#Dreamweaver:target{
+	display: block;
+}
+#Fireworks{
+	display: none;
+}
+
+#Fireworks li{
+	list-style: url("../images/11.png") outside circle; ;
+	margin-left: 28px;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+#Fireworks ul{
+	padding: 0;
+}
+
+#Fireworks:target{
+	display: block;
+}
+.c1{
+	color:#ff0033
+}
+.c2{
+	color:#5e2d00
+}
