@@ -43,81 +43,31 @@ article{
 	margin: 0 auto;
 }
 
-article section{
+
+section ul{
+	padding: 0;
 	margin: 0 auto;
 }
-
-#Photoshop{
-	display: none;
-}
-#Photoshop li{
-	list-style: url("../images/11.png") outside circle; 
-	margin-left: 28px;
-	font-size: 20px;
-	line-height: 40px;
-}
-#Photoshop li:nth-of-type(even){
+section  li:nth-of-type(even){
 	color: #bda793;
 }
-
-#Photoshop ul{
-	padding: 0;
-}
-#Photoshop:target{
-	display: block;
-}
-#Illustrator {
+section {
 	display: none;
 }
-#Illustrator li{
-	list-style: url("../images/11.png") outside circle; 
+section li{
 	margin-left: 28px;
 	font-size: 19px;
 	line-height: 40px;
-}
-#Illustrator  ul{
-	padding: 0;
-}
-
-#Illustrator:target{
-	display: block;
-}
-
-#Dreamweaver{
-	display: none;
-}
-#Dreamweaver li{
 	list-style: url("../images/11.png") outside circle; 
-	margin-left: 28px;
-	font-size: 20px;
-	line-height: 40px;
 }
 
-#Dreamweaver ul{
-	padding: 0;
-}
-
-#Dreamweaver:target{
+#Fireworks:target,
+#Dreamweaver:target,
+#Illustrator:target,
+#Photoshop:target{
 	display: block;
 }
-#Fireworks{
-	display: none;
-}
 
-#Fireworks li{
-	list-style: url("../images/11.png") outside circle; 
-	margin-left: 28px;
-	font-size: 20px;
-	line-height: 40px;
-}
-
-#Fireworks ul{
-	padding: 0;
-}
-
-#Fireworks:target{
-	display: block;
-}
 .c1{
 	color:#ff0033
 }
