@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#top{
+	width: 918px;
+	height: 261px;
+	margin:  0 auto;
+	background-color: #690;
+	margin-bottom: 10px;
+}
+
+#banner{
+	margin: 0 auto;
+	width: 918px;
+	height: 124px;
+	margin-top: 20px;
+}
+
+#main{
+	margin: 0 auto;
+	width: 918px;
+	height: 490px;
+}
+#main-left{
+	height: 490px;
+	width:370;
+	float: left;
+}
+#main-right{
+	width: 548px;
+	height: 490px;
+	float: left;
+}
+#fotter{
+	margin: 0 auto;
+	width: 918px;
+	height: 60px;
+	text-align: center;
+}
