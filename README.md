@@ -1,6 +1,6 @@
 
 #### 项目介绍
-html5+css3
+html5+css3   [ssh配置](ssh.md)
 
 [2018-10-9](2018-10-9/index.md)
 
@@ -26,17 +26,7 @@ html5+css3
 
 [2018-11-06](2018-11-06/index.md)
 
+[2018-11-07](2018-11-07/index.md)
 
 
-
-```shell
-
-ssh-keygen -t rsa -C "1396735592@qq.com"
-
-git config --global user.name "han1396735592"
-
-git config --global user.email "1396735592@qq.com"
-
-
-```
 
