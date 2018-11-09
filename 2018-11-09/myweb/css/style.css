@@ -48,3 +48,33 @@ body{
 	margin-bottom: -3px;
 	padding: 0;
 }
+#center-left{
+	float: left;
+	width: 50%;
+	height: 400px;
+	background-color: #f60;
+}
+
+#center-left img{
+	float: left;
+}
+
+
+#center-right{
+	float: left;
+	width: 50%;
+	height: 400px;
+	background-color: #ccc;
+}
+
+#center-right li{
+	list-style: none;
+}
+#center-right img{
+	float: left;
+}
+
+.s1{
+	color: red;
+	text-decoration: underline;
+}
