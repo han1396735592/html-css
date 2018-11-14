@@ -2,7 +2,7 @@
 
 ## myweb
 >
-> [index](index.html)
+> [index](myweb/index.html)
 >
 >
 >
