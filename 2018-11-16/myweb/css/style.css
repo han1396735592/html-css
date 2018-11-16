@@ -9,10 +9,10 @@
 	position: relative;
 	background-repeat: no-repeat;
 	margin: 0 auto;
-	background-image: url(../imgs/votebg.jpg);
+	background-image: url(../imgs/6-1/votebg.jpg);
 }
 .vote .close{
-	background-image: url(../imgs/close.jpg);
+	background-image: url(../imgs/6-1/close.jpg);
 	background-repeat: no-repeat;
 	position:absolute;
 	top: 8px;
@@ -22,8 +22,13 @@
 }
 .vote .chuanzhi {
 	position: absolute;
+	width: 480px;
+	height: 330px ;
     top: 35px;
     left: 10px;
+   	background-image: url(../imgs/6-1/chuanzhi_bg.png);
+	background-repeat: no-repeat;
+	
 }
 .vote .tijiao{
 	position: absolute;
@@ -31,6 +36,6 @@
 	height: 24px;
 	right: 10px;
 	top: 370px;
-	background-image: url(../imgs/tijiao.jpg);
+	background-image: url(../imgs/6-1/tijiao.jpg);
 	background-repeat: no-repeat;
 }

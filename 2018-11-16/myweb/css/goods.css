@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.goods{
+	position: relative;
+	width: 335px;
+	height: 380px;
+	border: solid 1px #ccc;
+}
+.goods-img{
+	background-image: url(../imgs/6-2/adv.jpg);
+	background-position: 15px 15px;
+	width: 310px;
+	height: 190px;
+	background-repeat: no-repeat;
+}
+.goods-title{
+	margin-top: 20px;
+	padding:0 20px;
+	font-size: 14px;
+}
+.goods-price{
+	padding: 20px;
+}
+.goods-price-now{
+	font-size: 30px;
+	color: red;
+}
+.goods-price-old{
+	color: #808080;
+}
+.goods-go{
+	position: absolute;
+	width: 80px;
+	height: 30px;
+	right: 20px;
+	bottom: 40px;
+	background-image: url(../imgs/6-2/see.jpg);
+}
+
+.goods-other{
+	position: absolute;
+	width: 80px;
+	height: 30px;
+	right: 0;
+	bottom: 0;
+	font-size: 10px;
+}
