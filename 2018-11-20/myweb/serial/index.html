@@ -25,6 +25,15 @@
 
 					<form action="" class="layui-form">
 					  
+
+					   <div class="layui-form-item">
+					    <label class="layui-form-label">端口号:</label>
+					    <div class="layui-input-block">
+					      <select name="btl" lay-verify="required">
+							<option value="" v-for="btl in bglist" value="{{btl}}"> {{btl}}</option>
+					      </select>
+					    </div>
+					  </div>
 					  <div class="layui-form-item">
 					    <label class="layui-form-label">波特率</label>
 					    <div class="layui-input-block">
