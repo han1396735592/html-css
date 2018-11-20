@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>串口控制台</title>
+	<link rel="stylesheet" href="layui/css/layui.css">
+	<script src="https://cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.js"></script>
+	<script type="text/javascript" src="vue.js"></script>
+	<script type="text/javascript" src="layui/layui.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div id="console">
+		
+		<div class="title layui-row">
+			<h3 align="center"> 串口控制台</h3>
+		</div>
+
+		<div class="body layui-row">
+			<div class="body-left layui-col-md3">
+
+				<div class="form-div" >
+
+					<form action="" class="layui-form">
+					  
+					  <div class="layui-form-item">
+					    <label class="layui-form-label">波特率</label>
+					    <div class="layui-input-block">
+					      <select name="btl" lay-verify="required">
+							<option value="" v-for="btl in bglist" value="{{btl}}"> {{btl}}</option>
+					      </select>
+					    </div>
+					  </div>
+
+					  <div class="layui-form-item">
+					    <label class="layui-form-label">数据位</label>
+					    <div class="layui-input-block">
+					      <select name="btl" lay-verify="required">
+							<option value="" v-for="datalen in dataBits" value="{{datalen}}"> {{datalen}}</option>
+					      </select>
+					    </div>
+					  </div>
+
+					    <div class="layui-form-item">
+					    <label class="layui-form-label">校验位</label>
+					    <div class="layui-input-block">
+					      <select name="btl" lay-verify="required">
+							<option value="" v-for="btl in bglist" value="{{btl}}"> {{btl}}</option>
+					      </select>
+					    </div>
+					  </div>
+
+					  <div class="layui-form-item">
+					    <label class="layui-form-label">停止位</label>
+					    <div class="layui-input-block">
+					      <select name="btl" lay-verify="required">
+							<option value="" v-for="datalen in dataBits" value="{{datalen}}"> {{datalen}}</option>
+					      </select>
+					    </div>
+					  </div>
+
+
+
+
+
+	 				</form>
+				</div>
+
+				  
+			</div>
+			<div class="body-right layui-col-md9">
+				   
+      
+			</div>
+
+		</div>
+
+
+
+
+	</div>
+
+
+
+</body>
+</html>

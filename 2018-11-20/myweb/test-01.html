@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<style>
+
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.form{
+		width: 400px;
+		margin: 0 auto;
+	}
+
+	ul{
+		width: 1005；
+
+	}
+	ul li{
+		list-style: none;
+		margin-top: 20px;
+	}
+
+	ul li label{
+		width: 60px;
+		height: 30px;
+		color: red;
+		display: inline-block;
+	}
+</style>
+<body>
+
+	<div class="form">
+
+		<form action="">
+
+			<table>
+				<tbody>
+					<tr height="60px">
+						<td width="60">用户名:</td>
+						<td><input type="text" required maxlength="20"  name="username"></td>
+					</tr>
+					<tr height="60px">
+						<td width="60">密码 :</td>
+						<td><input type="password" name="password"></td>
+					</tr>
+					<tr height="60px">
+						<td width="60"><input type="reset" value="重置"></td>
+						<td><input type="submit" value="提交"></td>
+					</tr>
+					<tr height="60px">
+						<td width="60">性别：</td>
+						<td><input type="radio" name="sex" value="男">男 &nbsp;&nbsp;<input  name="sex"  type="radio" value="女">女</td>
+					</tr>
+					<tr height="60px">
+						<td width="60">爱好：</td>
+						<td><input type="checkbox" name="aihao" value="唱歌">唱歌<input name="aihao" type="checkbox" value="跳舞">跳舞</td>
+					</tr>
+					<tr height="60px">
+						<td width="80">证件类型：</td>
+						<td>
+							<select name="idType">
+								<option value="学生证">学生证</option>
+								<option value="身份证">身份证</option>
+								<option value="军官证">军官证</option>
+							</select>
+						</td>
+					</tr>
+					<tr height="60px">
+						<td width="80">地区：</td>
+						<td>
+							<select name="dq">
+								<optgroup label="郑州市">
+									<option value="二七区">二七区</option>
+									<option value="管城区">管城区</option>
+									<option value="金水区">金水区</option>
+								</optgroup>
+								<optgroup label="北京市">
+									<option value="朝阳区">朝阳区</option>
+									<option value="西城区">西城区</option>
+								</optgroup>
+								
+								
+							</select>
+						</td>
+					</tr>
+
+					<tr height="60px">
+						<td width="60">出生年月：</td>
+						<td><input type="month"></td>
+					</tr>
+					<tr height="60px">
+						<td width="60">email：</td>
+						<td><input type="email"></td>
+					</tr>
+					
+					
+					<tr height="60px">
+						<td width="60">手机号:</td>
+						<td><input type="tel"  required></td>
+					</tr>
+					<tr height="60px">
+						<td width="60">自我介绍:</td>
+						<td>
+							<textarea rows="10" cols="40"></textarea>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+		</form>
+	</div>
+
+	
+	
+</body>
+</html>
