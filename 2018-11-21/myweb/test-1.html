@@ -68,7 +68,7 @@
 				真实姓名:
 			</td>
 			<td>
-				<input type="text"  placeholder="例如：王明" name="name">
+				<input required  type="text" maxlength="20"  placeholder="例如：王明" name="name">
 			</td>
 			<td>
 			（必须填写，只能输入汉字）
@@ -80,7 +80,7 @@
 				真实年龄:
 			</td>
 			<td>
-				<input  type="number" min="18" max="110"  value="24" name="age">
+				<input  required type="number" min="18"  max="110"  value="24" name="age">
 			</td>
 			<td>
 			（必须填写）
@@ -89,10 +89,10 @@
 
 		<tr>
 			<td>
-				出生年月:
+				出生日期:
 			</td>
 			<td>
-				<input type="date"  name="birth">
+				<input type="date" required  name="birth">
 			</td>
 			<td>
 			（必须填写）
@@ -105,7 +105,7 @@
 				电子邮箱:
 			</td>
 			<td>
-				<input type="email"  value="1396735592@qq.com" name="email" >
+				<input type="email"  required value="1396735592@qq.com" name="email" >
 			</td>
 			<td>
 			（必须填写）
@@ -117,7 +117,7 @@
 				身份证号:
 			</td>
 			<td>
-				<input type="text"   name="IDNumber" >
+				<input type="text" required maxlength="18" pattern="^\d{8,18}|[0-9x]{8,18}|[0-9X]{8,18}?$"  name="IDNumber" >
 			</td>
 			<td>
 			（必须填写）
@@ -129,7 +129,7 @@
 				手机号:
 			</td>
 			<td>
-				<input type="text"  maxlength="11"  name="tel" >
+				<input type="text" maxlength="11" required pattern="^\d{11}$" maxlength="11"  name="tel" >
 			</td>
 			<td>
 			（必须填写）
@@ -141,7 +141,7 @@
 				个人主页:
 			</td>
 			<td>
-				<input type="url"   style="width:250px" placeholder="http://html-css.github.qqhxj.cn" list="siteList" >
+				<input type="url" pattern="^(http|https)://([\w-]+\.)+[\w-]+(/[\w-./?%&=]*)?$"  style="width:250px" placeholder="http://html-css.github.qqhxj.cn" list="siteList" >
 
 				<datalist id="siteList">
 				<option>http://github.qqhxj.cn</option>
