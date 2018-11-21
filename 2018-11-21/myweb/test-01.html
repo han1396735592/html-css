@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<style>
+
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	.form{
+		width: 50%;
+		background-color: #98cec8;
+		height: 400px;
+		margin: 0 auto;
+		padding: 30px;
+	}
+	h3{
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	table tr{
+		height: 30px;
+	}
+	table tr td:first{
+		width: 90px;
+	}
+
+	table tr input{
+		width: 246px;
+    	border: solid 3px #80cbe0;
+    	height: 24px;
+	}
+	.b{
+		width: 100px;
+		height: 30px;
+	}
+
+
+
+
+
+</style>
+<body>
+
+<div class="form">
+	<h3 align="center">学员信息登记表</h3>
+<form action="">
+
+<table>
+	<tbody>
+		<tr>
+			<td>
+				用户登录名:
+			</td>
+			<td>
+				<input type="text" disabled readonly="" value="myemail@163.com">
+			</td>
+			<td>
+			(不能修改，只能查看)
+			</td>
+		</tr>
+		<tr>
+			<td>
+				真实姓名:
+			</td>
+			<td>
+				<input type="text"  placeholder="例如：王明" name="name">
+			</td>
+			<td>
+			（必须填写，只能输入汉字）
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				真实年龄:
+			</td>
+			<td>
+				<input  type="number" min="18" max="110"  value="24" name="age">
+			</td>
+			<td>
+			（必须填写）
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				出生年月:
+			</td>
+			<td>
+				<input type="date"  name="birth">
+			</td>
+			<td>
+			（必须填写）
+			</td>
+			</tr>
+		</tr>
+
+		<tr>
+			<td>
+				电子邮箱:
+			</td>
+			<td>
+				<input type="email"  value="1396735592@qq.com" name="email" >
+			</td>
+			<td>
+			（必须填写）
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				身份证号:
+			</td>
+			<td>
+				<input type="text"   name="IDNumber" >
+			</td>
+			<td>
+			（必须填写）
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				手机号:
+			</td>
+			<td>
+				<input type="text"  maxlength="11"  name="tel" >
+			</td>
+			<td>
+			（必须填写）
+			</td>
+		</tr>
+
+		<tr>
+			<td >
+				个人主页:
+			</td>
+			<td>
+				<input type="url"   style="width:250px" placeholder="http://html-css.github.qqhxj.cn" list="siteList" >
+
+				<datalist id="siteList">
+				<option>http://github.qqhxj.cn</option>
+				<option>http://www.qqhxj.cn</option>
+				<option>http://video.qqhxj.cn</option>
+				</datalist>
+			</td>
+			<td>
+			（请选择网址）
+			</td>
+		</tr>
+
+
+		<tr>
+			<td>
+				幸运颜色:
+			</td >
+			<td style="width:100px" colspan="2" >
+				<input style="width:100px" type="color"  value="#f13cef"  name="color" >（请选择你喜欢的颜色）
+			</td>
+			
+		</tr>
+
+		<tr>
+		<td colspan="3" align="center">
+				<input  class="b" type="submit">
+				<input  class="b" type="reset">
+		</td>
+			
+		</tr>
+
+	</tbody>
+</table>
+
+</form>
+</div>
+
+	
+</body>
+</html>
