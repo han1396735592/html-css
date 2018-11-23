@@ -1,41 +1,95 @@
-
 *{
 	margin: 0;
 	padding: 0;
 }
-.box{
-	width: 850px;
+ul li{
+	list-style: none;
+}
+a:link{
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+}
+
+.top{
+	width: 960px;
+	height: 80px;
 	margin: 0 auto;
-	height: 800px;
 }
-.header{
+.top p{font-size: 8px;
+	margin: 0 auto;
 	float: left;
-}
-.header img{
-	width: 118px;
-	height: 337;
-	float: left;
-}
-.title{
-	padding-left: 20px;
-    font-size: 20px;
-    line-height: 37px;
-    width: 400px;
-    margin-left: 135px;
-    border-left: solid #ccc 1px;
-}
-.header-help{
-	float: right;
-	width: 50px;
-	
+	width: 700px;
+	height: 100%;
+	border: solid red 2px ;
 }
 
-.body{
-	width: 100%;
+.page{
+	background-image: url(../images/main.PNG);
+	height: 602px;
+	margin: 0 auto;
 }
-.body-top{
-	width: 100px;
-	background-image: url(../imgs/tit_bg3.jpg);
 
-	background-repeat: repeat-x;
+.boby{
+	width: 1916px;
+	margin: 0 auto;
+	height: 602px;
+	position: relative;
 }
+.login-div{
+	position: absolute;
+	top: 200px;
+    width: 351px;
+    height: 350px;
+    right: 406px;
+}
+
+.login-div ul li{
+	margin: 20px auto;
+}
+
+.login-div input{
+	width: 250px;
+	margin-top: 20px;
+	margin: 0 auto;
+	height: 40px;
+	display: block;
+	padding-left: 40px;
+	box-sizing:border-box;
+}
+
+.login-div img{
+	top: 3px;
+    position: relative;
+    left: 5px;
+}
+
+.username{
+	background-image: url(../images/user.PNG);
+	background-repeat: no-repeat;
+}
+
+.pass{
+	background-image: url(../images/mima.PNG);
+	background-repeat: no-repeat;
+}
+
+
+.bt{
+	background-color: red;
+	width: 250px;
+}
+
+
+.login-bottom span{
+	margin: 10px;
+}
+.bottom{
+	width: 960px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+
