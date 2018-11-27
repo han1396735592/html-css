@@ -26,24 +26,40 @@ a:hover{
 	border: solid red 2px ;
 }
 
+
+.top div{
+	margin-left: 50px;
+    text-align: center;
+    height: 25px;
+    float: left;
+    background-color: yellow;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 17px;
+    /* padding: 0px 20px; */
+    box-sizing: border-box;
+}
+
 .page{
 	background-image: url(../images/main.PNG);
+	background-position: center;
+	width: 1619px;
 	height: 602px;
 	margin: 0 auto;
 }
 
-.boby{
+.body{
 	width: 1916px;
 	margin: 0 auto;
 	height: 602px;
 	position: relative;
 }
 .login-div{
-	position: absolute;
-	top: 200px;
-    width: 351px;
+    position: absolute;
+    top: 120px;
+    width: 355px;
     height: 350px;
-    right: 406px;
+    right: 568px;
 }
 
 .login-div ul li{
@@ -51,6 +67,7 @@ a:hover{
 }
 
 .login-div input{
+
 	width: 250px;
 	margin-top: 20px;
 	margin: 0 auto;
