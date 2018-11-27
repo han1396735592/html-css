@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+		<div class="top">
+			<img src="images/logo.PNG" style="float:left" alt="">
+		
+		<div style="float:left">
+			 <p >
+            为确保您账户的安全及正常使用，依《网络安全法》相关要求，6月1日起会员账户需绑定手机。如您还未绑定，请尽快完成，感谢您的理解及支持！
+       	 </p>
+		</div>
+	
+       
+    </div>
+		</div>
+
+
+		<div class="page">
+			
+			<div class="body">
+
+				<div id="change" onclick="fun1()">
+					
+				</div>
+				
+				<div class="login-div">
+
+					<img src="images/top222.PNG" alt="">
+					<div class="input-group">
+						<ul>
+							<li><input class="username" type="text" placeholder="手机号\用户\邮箱" ></li>
+							<li><input class="pass" type="password"></li>
+							<li><input  class="bt" type="submit" class="tb" value="登录"></li>
+						</ul>
+					</div>
+					<div class="login-bottom" style="margin-left:50px;font-size:12px">
+						<p align="left"><span>微博登录</span><span>支付宝登录</span></p><br>
+						<p align="right"><span>忘记密码</span><span>忘记会员名</span><span>免费注册</span></p>
+					</div>
+				
+
+				</div>
+				<div class="login-qr">
+					
+				</div>
+
+			</div>
+		
+
+		</div>
+	<div class="bottom">
+	<br><br>
+
+				阿里巴巴集团|阿里巴巴国际站|阿里巴巴中国站|全球速卖通|淘宝网|天猫|聚划算|一淘|阿里妈妈|飞猪|虾米|阿里云计算|云OS|万网|支付宝|来往
+				<br><br><hr>
+				<br>
+关于淘宝合作伙伴营销中心廉正举报联系客服开放平台诚征英才联系我们网站地图法律声明及隐私权政策© 2018 Taobao.com 版权所有<br><br><hr><br>
+网络文化经营许可证：浙网文[2016]0132-032号|增值电信业务经营许可证：浙B2-20080224-1|信息网络传播视听节目许可证：1109364号
+
+			</div>
+
+	
+
+	<script type="text/javascript">
+
+			var form = true;
+			function fun1 () {
+				
+				if(form){
+					document.getElementsByClassName("login-div")[0].style.visibility='hidden';
+					document.getElementsByClassName("login-qr")[0].style.visibility='visible';
+				}else{
+					document.getElementsByClassName("login-qr")[0].style.visibility='hidden';
+					document.getElementsByClassName("login-div")[0].style.visibility='visible';
+
+				}
+				form=!form;
+				// console.log(form)
+
+			}
+
+	
+
+	</script>
+</body>
+</html>

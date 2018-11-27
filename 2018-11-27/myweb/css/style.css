@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a:link{
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+}
+
+.top{
+	width: 960px;
+	height: 80px;
+	margin: 0 auto;
+}
+.top p{font-size: 8px;
+	margin: 0 auto;
+	float: left;
+	width: 700px;
+	height: 100%;
+	border: solid red 2px ;
+}
+
+
+.top div{
+	margin-left: 50px;
+    text-align: center;
+    height: 25px;
+    float: left;
+    background-color: yellow;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 17px;
+    /* padding: 0px 20px; */
+    box-sizing: border-box;
+}
+
+.page{
+	background-image: url(../images/main.PNG);
+	background-position: center;
+	width: 1619px;
+	height: 602px;
+	margin: 0 auto;
+}
+
+.body{
+	width: 1916px;
+	margin: 0 auto;
+	height: 602px;
+	position: relative;
+}
+.login-div{
+    position: absolute;
+    top: 123px;
+    width: 347px;
+    height: 348px;
+    right: 570px;
+
+}
+
+#change{
+	 position: absolute;
+    top: 123px;
+    width: 80px;
+    height: 80px;
+    /*background-color: red;*/
+    right: 570px;
+    z-index: 5;
+}
+
+.login-qr{
+	position: absolute;
+    top: 123px;
+    width: 347px;
+    height: 348px;
+    right: 570px;
+    background-image: url(../images/二维码.PNG);
+}
+
+.login-div ul li{
+	margin: 20px auto;
+}
+
+.login-div input{
+
+	width: 250px;
+	margin-top: 20px;
+	margin: 0 auto;
+	height: 40px;
+	display: block;
+	padding-left: 40px;
+	box-sizing:border-box;
+}
+
+.login-div img{
+	top: 3px;
+    position: relative;
+    left: 5px;
+}
+
+
+
+.username{
+	background-image: url(../images/user.PNG);
+	background-repeat: no-repeat;
+}
+
+.pass{
+	background-image: url(../images/mima.PNG);
+	background-repeat: no-repeat;
+}
+
+
+.bt{
+	background-color: red;
+	width: 250px;
+}
+
+
+.login-bottom span{
+	margin: 10px;
+}
+.bottom{
+	width: 960px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+
