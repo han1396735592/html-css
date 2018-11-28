@@ -18,24 +18,25 @@ a:hover{
 	height: 80px;
 	margin: 0 auto;
 }
-.top p{font-size: 8px;
-	margin: 0 auto;
-	float: left;
-	width: 700px;
-	height: 100%;
-	border: solid red 2px ;
+.top p{
+	font-size: 8px;
+    margin: 0 auto;
+    float: left;
+    width: 784px;
+    height: 100%;
+    border: solid red 2px;
 }
 
 
 .top div{
-	margin-left: 50px;
+	 margin-left: -2px;
     text-align: center;
     height: 25px;
     float: left;
     background-color: yellow;
     font-size: 20px;
     line-height: 25px;
-    margin-top: 17px;
+    margin-top: 23px;
     /* padding: 0px 20px; */
     box-sizing: border-box;
 }
