@@ -2,134 +2,74 @@
 	margin: 0;
 	padding: 0;
 }
-ul li{
-	list-style: none;
-}
-a:link{
-	text-decoration: none;
-}
 
-a:hover{
-	color: red;
+@font-face {
+	font-family:MD;
+	src: url(../font/MD.ttf);
 }
-
-.top{
-	width: 960px;
-	height: 80px;
-	margin: 0 auto;
+#box-video{
+	width: 1422px;
+	/* height: 2000px; */
+	overflow: hidden;
 }
-.top p{
-	font-size: 8px;
-    margin: 0 auto;
-    float: left;
-    width: 784px;
-    height: 100%;
-    border: solid red 2px;
-}
-
-
-.top div{
-	 margin-left: -2px;
-    text-align: center;
-    height: 25px;
-    float: left;
-    background-color: yellow;
-    font-size: 20px;
-    line-height: 25px;
-    margin-top: 23px;
-    /* padding: 0px 20px; */
-    box-sizing: border-box;
-}
-
-.page{
-	background-image: url(../images/main.PNG);
-	background-position: center;
-	width: 1619px;
-	height: 602px;
-	margin: 0 auto;
-}
-
-.body{
-	width: 1619px;
-	margin: 0 auto;
-	height: 602px;
-	position: relative;
-}
-.login-div{
-    position: absolute;
-    top: 123px;
-    width: 347px;
-    height: 348px;
-    right: 272px;
-
-}
-
-#change{
-	 position: absolute;
-    top: 123px;
-    width: 80px;
-    height: 80px;
-    /*background-color: red;*/
-    right: 272px;
-    z-index: 5;
-}
-
-.login-qr{
+.left{
 	position: absolute;
-    top: 123px;
-    width: 347px;
-    height: 348px;
-    right: 272px;
-    background-image: url(../images/二维码.PNG);
-}
-
-.login-div ul li{
-	margin: 20px auto;
-}
-
-.login-div input{
-
-	width: 250px;
-	margin-top: 20px;
-	margin: 0 auto;
-	height: 40px;
-	display: block;
-	padding-left: 40px;
-	box-sizing:border-box;
-}
-
-.login-div img{
-	top: 3px;
-    position: relative;
-    left: 5px;
-}
-
-
-
-.username{
-	background-image: url(../images/user.PNG);
 	background-repeat: no-repeat;
+	width: 422px;
+	height: 422px;
+	float: left;
+	background-image: url(../images/cd_img.jpg) ;
+	border-radius: 50%;
+	left: 50px;
+	top: 100px;
 }
-
-.pass{
-	background-image: url(../images/mima.PNG);
-	background-repeat: no-repeat;
+.yinfu{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-position: center center;
+	background-repeat: no-repeat;	z-index:2 ;
+	left: 161px;
+	top: 161px;
+	border: solid 5px white;
+	background-color: #000000;
+	position: absolute;
+	background-image: url(../images/yinfu.gif) ;
 }
-
-
-.bt{
-	background-color: red;
-	width: 250px;
+.right{
+	position: absolute;
+	height: 450px;
+	width: 800px;
+	float: left;
+	background-color: aquamarine;
+	right: 50px;
+	top: 100px;
+	
 }
-
-
-.login-bottom span{
-	margin: 10px;
+video{
+	height: 100%;
+	width: 100%;
 }
-.bottom{
-	width: 960px;
-	margin: 0 auto;
-	font-size: 14px;
+.right h1{
+	font-size: 110px;
+	color: #923804;
+	font-size: 30px;
+	font-family: "MD";
+	text-align: center;
+	
 }
-
-
+.right p{
+	background-color: #fefbd2;
+	background-image: url(../images/bg.png);
+	font-size: 20px;
+	line-height: 30px;
+	
+}
+video{
+	position: absolute;
+	width: 100%;
+	
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
