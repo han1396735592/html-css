@@ -9,7 +9,9 @@
 
 <div id="box">
 	<div class="box-left">
-		<video src="media/movie.mp4" controls="controls" autoplay="autoplay"></video>
+		<video src="media/movie.mp4" onmouseover="document.getElementById('share').style.display='block'" autoplay="autoplay"
+		 onmouseout="document.getElementById('share').style.display='none'" controls="controls" loop="loop"></video>
+		
 		<div id="share">
 			<ul>
 				<img src="images/1.png" alt="">
@@ -36,16 +38,20 @@
 	</div>
 	<div class="box-right">
 		<ul>
-			<li>
+			<li onclick="document.getElementsByTagName('video')[0].src='media/hehua.mp4'">
 				
-				<img src="images/1.jpg" alt="">
+				<img src="images/1.jpg" alt=""  >
 				<p>《战狼Ⅱ》是吴京执导的动作军事电影，由吴京、弗兰克·格里罗、吴刚、张翰、卢靖姗、... </p>
 			</li>
-			<li>
+			<li onclick="document.getElementsByTagName('video')[0].src='media/movie.mp4'">
 				<img src="images/2.jpg" alt="">
 				<p>《战狼Ⅱ》是吴京执导的动作军事电影，由吴京、弗兰克·格里罗、吴刚、张翰、卢靖姗、...</p>
 			</li>
-			<li>
+			<li onclick="document.getElementsByTagName('video')[0].src='media/movie.webm'">
+				<img src="images/3.jpg" alt="">
+				<p>《战狼Ⅱ》是吴京执导的动作军事电影，由吴京、弗兰克·格里罗、吴刚、张翰、卢靖姗、... </p>
+			</li>
+			<li onclick="document.getElementsByTagName('video')[0].src='media/xiangjing.webm'">
 				<img src="images/3.jpg" alt="">
 				<p>《战狼Ⅱ》是吴京执导的动作军事电影，由吴京、弗兰克·格里罗、吴刚、张翰、卢靖姗、... </p>
 			</li>
