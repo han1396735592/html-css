@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<style type="text/css">
+			
+			.dd1 {
+				height: 300px;
+				width: 300px;
+				border-radius: 50%;
+				background-image: url(https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3341127381,3762636753&fm=26&gp=0.jpg);
+				float: left;
+			}
+			#d1:hover{
+				transition: all 3s ease; 
+				transform: rotateZ(180deg);
+				transform-origin: right bottom;
+				
+			}
+			#d2:hover{
+				transition: all 3s ease; 
+
+				transform: rotateY(180deg);
+			}
+			#d3:hover{
+				transition: all 3s ease; 
+
+				transform-origin: left bottom; 
+				transform: rotateZ(180deg);
+			}
+			
+			.img{
+				position: relative;
+				height: 300px;
+				width: 300px;
+				transform-style: preserve-3d;
+			}
+			.img img{
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 300px;
+				width: 300px;
+			}
+			.img:hover{
+				transition: all 3s ease 0s;
+				transform: rotateX(-90deg);
+			}
+			.img1:hover{
+				transition: all 3s ease 3s;
+
+				transform: rotateX(-180deg);
+			}
+			.img2:hover{
+				transform: rotateZ(-180deg);
+			}
+		</style>
+	</head>
+	<body>
+		<center>
+			
+				<div class="dd1" id="d1" ></div>
+				<div class="dd1" id="d2"></div>
+				<div class="dd1" id="d3"></div>
+				<hr style="clear: both;">
+				
+				<div class="img">
+					<img  class="img1" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=280112221,379349849&fm=26&gp=0.jpg" alt="">
+					<img  class="img2" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3341127381,3762636753&fm=26&gp=0.jpg" alt="">
+					
+				</div>
+				
+		</center>
+	
+		
+	</body>
+</html>
