@@ -71,7 +71,6 @@ li{
 	left: 0;
 	top: 0;
 	transition: all 3s ease 0s;
-	/* position: absolute; */
 }
 
 
@@ -137,9 +136,37 @@ li{
 	/* display: inline-block; */
 	float: left;
 	width: 212px;
-	margin: 15px ;
+	margin: 10px ;
 	height: 212px;
 }
 #box2{
-	height: 600px;
+	height: 800px;
+	margin: 0px;
+}
+#box2 li{
+	position: relative;
+	border: 2px solid beige;
+	border-radius: 50%;
+}
+
+#box2 li .y{
+	opacity: 0;
+}
+ 
+#box2 li img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#box2 li:hover .j{
+	opacity: 0;
+	transition: all 1s ease ; 
+	transform:  scale(0.4) translate(-80%,-80%);
+} 
+#box2 li:hover .y{
+	opacity: 1;
+	transform: scale(0.8) translate(-60%,-60%);
+	transition: all 3s ease ; 
 }
