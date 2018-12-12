@@ -7,14 +7,12 @@ li{
 }
 #box1,#box2,#box{
 	height: 350px;
-	background-color: #83ba8b;
 	padding-top: 40px;
 	margin-bottom: 200px;
 }
 
 #box{
 	height: 500px;
-	background-color: blueviolet;
 	margin-bottom: 0;
 }
 
@@ -73,7 +71,9 @@ li{
 	transition: all 3s ease 0s;
 }
 
-
+#box1{
+	background-color: darkseagreen		;
+}
 
 #box1 header,#box2 header{
 	margin: 0 auto;
@@ -126,21 +126,23 @@ li{
 	backface-visibility: hidden;
 	transition:  all 3s ease 0s;
 }
-
+#box2 header p{
+	color: #FF0000;
+}
 #box2 ul{
 	margin: 0 auto;
 	width: 1000px;
 	height: 450px;
 }
 #box2 ul li {
-	/* display: inline-block; */
 	float: left;
 	width: 212px;
 	margin: 10px ;
 	height: 212px;
 }
 #box2{
-	height: 800px;
+	padding: 0;
+	height: 620px;
 	margin: 0px;
 }
 #box2 li{
